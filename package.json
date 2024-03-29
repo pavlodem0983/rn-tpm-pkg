@@ -26,7 +26,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace rn-tpm-gateway-lib-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -43,7 +42,7 @@
     "type": "git",
     "url": "git+https://github.com/pavlodem0983/rn-tpm-pkg.git"
   },
-  "author": "Pavlo0956 <pavlodem0983@gmail.com> (https://github.com/pavlodem0983/rn-tpm-pkg)",
+  "author": "Pavlo0956 <pavlodem0983@gmail.com> (https://github.com/pavlodem0983)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pavlodem0983/rn-tpm-pkg/issues"
@@ -156,5 +155,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
